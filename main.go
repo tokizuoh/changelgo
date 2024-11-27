@@ -65,4 +65,16 @@ func main() {
 		fmt.Printf("Failed to read response: %v\n", err)
 		return
 	}
+
+	if resp.StatusCode != http.StatusOK {
+		fmt.Printf("Non-OK HTTP status: %d\nResponse: %s\n", resp.StatusCode, string(respBody))
+		return
+	}
+
+	var response Response
+	err = json.Unmarshal(respBody, &response)
+	if err != nil {
+		fmt.Printf("Failed to parse response: %v\n", err)
+		return
+	}
 }
