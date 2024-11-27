@@ -132,8 +132,8 @@ func main() {
 		return
 	}
 
-	filename := "./generated/rss.xml"
 	dir := "./generated"
+	filename := dir + "/rss.xml"
 	if _, err = os.Stat(dir); os.IsNotExist(err) {
 		err = os.Mkdir(dir, os.ModePerm)
 		if err != nil {
