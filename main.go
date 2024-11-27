@@ -131,4 +131,20 @@ func main() {
 		fmt.Printf("Failed to convert to rss: %v\n", err)
 		return
 	}
+
+	filename := "./generated/rss.xml"
+	dir := "./generated"
+	if _, err = os.Stat(dir); os.IsNotExist(err) {
+		err = os.Mkdir(dir, os.ModePerm)
+		if err != nil {
+			fmt.Println("Error creating to file:", err)
+			return
+		}
+	}
+
+	err = os.WriteFile(filename, []byte(rss), 0644)
+	if err != nil {
+		fmt.Println("Error writing to file:", err)
+		return
+	}
 }
