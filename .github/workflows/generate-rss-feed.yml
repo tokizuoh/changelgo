@@ -20,6 +20,8 @@ jobs:
         run: go get .
       - name: Build
         run: go build -v ./...
+      - name: Run
+        run: ./changelgo
       - name: Commit && Push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
