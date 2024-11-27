@@ -6,6 +6,14 @@ import (
 )
 
 func main() {
+	target, err := read()
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+
+	// TODO: use target
+
 	response, err := fetch()
 	if err != nil {
 		fmt.Println(err)
