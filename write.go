@@ -5,9 +5,9 @@ import (
 	"os"
 )
 
-func write(rss string) error {
+func write(rss string, filename string) error {
 	dir := "./generated"
-	filename := dir + "/rss.xml"
+	path := dir + "/" + filename
 	if _, err := os.Stat(dir); os.IsNotExist(err) {
 		err = os.Mkdir(dir, os.ModePerm)
 		if err != nil {
@@ -15,7 +15,7 @@ func write(rss string) error {
 		}
 	}
 
-	err := os.WriteFile(filename, []byte(rss), 0644)
+	err := os.WriteFile(path, []byte(rss), 0644)
 	if err != nil {
 		return fmt.Errorf("Error writing to file:", err)
 	}

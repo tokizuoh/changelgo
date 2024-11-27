@@ -12,23 +12,24 @@ func main() {
 		os.Exit(1)
 	}
 
-	// TODO: use target
+	for _, item := range target.Items {
+		response, err := fetch(item)
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
 
-	response, err := fetch()
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
+		rss, err := generated(item, response)
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
 
-	rss, err := generated(response)
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
-
-	err = write(rss)
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
+		filename := fmt.Sprintf("%s-%s-rss.xml", item.Owner, item.Repo)
+		err = write(rss, filename)
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
 	}
 }

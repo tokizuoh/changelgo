@@ -9,7 +9,7 @@ import (
 	"os"
 )
 
-func fetch() (Response, error) {
+func fetch(item Item) (Response, error) {
 	token := os.Getenv("GITHUB_TOKEN")
 	if token == "" {
 		return Response{}, fmt.Errorf("GITHUB_TOKEN is not set")
@@ -24,10 +24,10 @@ func fetch() (Response, error) {
 
 	// TODO: DI
 	variables := map[string]interface{}{
-		"owner":    "swiftlang",
-		"name":     "swift",
+		"owner":    item.Owner,
+		"name":     item.Repo,
 		"first":    5,
-		"filePath": "CHANGELOG.md",
+		"filePath": item.File,
 	}
 
 	body := map[string]interface{}{
