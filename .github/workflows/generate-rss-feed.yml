@@ -1,0 +1,31 @@
+name: Generate RSS Feed
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Go 1.21.3
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.21.3"
+      - name: Display Go version
+        run: go version
+      - name: Install dependencies
+        run: go get .
+      - name: Build
+        run: go build -v ./...
+      - name: Commit && Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Update rss.xml"
+          git push origin main
