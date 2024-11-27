@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>swiftlang/swift CHANGELOG.md</title>
+    <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
+    <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
+    <pubDate>Thu, 28 Nov 2024 07:49:30 +0900</pubDate>
+    <item>
+      <title>Update CHANGELOG.md (#77093)</title>
+      <link>https://github.com/swiftlang/swift/commit/7a31f393576117ecc399b78dd593462434660f05</link>
+      <description>Update CHANGELOG.md (#77093)</description>
+      <pubDate>Fri, 18 Oct 2024 05:31:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>SE-0444: Promote MemberImportVisibility to an upcoming feature. The propos...</title>
+      <link>https://github.com/swiftlang/swift/commit/d37303680552665058278db6349f73f92ed2bf5c</link>
+      <description>SE-0444: Promote MemberImportVisibility to an upcoming feature.&#xA;&#xA;The proposal has been accepted, so `MemberImportVisibility` is no longer&#xA;experimental.&#xA;&#xA;Resolves rdar://126284512.</description>
+      <pubDate>Thu, 26 Sep 2024 20:41:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ignore inactive IfConfigDecls in SourceKit&#39;s syntax model Clients that nee...</title>
+      <link>https://github.com/swiftlang/swift/commit/9936f64c2a1297ccb46165f181de7ccafd0892c7</link>
+      <description>Ignore inactive IfConfigDecls in SourceKit&#39;s syntax model&#xA;&#xA;Clients that need syntactic information should use SourceKit-LSP or&#xA;swift-syntax.</description>
+      <pubDate>Sun, 08 Sep 2024 04:36:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelog: add notes about SE-0442 Add a note about the accepted developer...</title>
+      <link>https://github.com/swiftlang/swift/commit/7381bf0da9616b88b649c940ea29de9b4200cb95</link>
+      <description>Changelog: add notes about SE-0442&#xA;&#xA;Add a note about the accepted developer experience change from: https://github.com/swiftlang/swift-evolution/blob/main/proposals/0442-allow-taskgroup-childtaskresult-type-to-be-inferred.md</description>
+      <pubDate>Wed, 07 Aug 2024 08:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fixed @preconcurrency syntax in CHANGELOG</title>
+      <link>https://github.com/swiftlang/swift/commit/2a188ed123da731dd3f1ec62a370573d37eccd51</link>
+      <description>Fixed @preconcurrency syntax in CHANGELOG</description>
+      <pubDate>Wed, 05 Jun 2024 14:11:30 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
