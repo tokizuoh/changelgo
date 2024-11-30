@@ -22,7 +22,6 @@ func fetch(item Item) (Response, error) {
 	}
 	query := string(queryBytes)
 
-	// TODO: DI
 	variables := map[string]interface{}{
 		"owner":    item.Owner,
 		"name":     item.Repo,
