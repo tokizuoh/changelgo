@@ -25,6 +25,7 @@ func fetch(item Item) (Response, error) {
 	variables := map[string]interface{}{
 		"owner":    item.Owner,
 		"name":     item.Repo,
+		"branch":   item.Branch,
 		"first":    5,
 		"filePath": item.File,
 	}

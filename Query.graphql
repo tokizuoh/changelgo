@@ -1,6 +1,6 @@
-query($owner: String!, $name: String!, $first: Int!, $filePath: String!) {
+query($owner: String!, $name: String!, $branch: String!, $first: Int!, $filePath: String!) {
   repository(owner: $owner, name: $name) {
-    object(expression: "main") {
+    object(expression: $branch) {
       ... on Commit {
         history(first: $first, path: $filePath) {
           edges {
