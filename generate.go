@@ -36,7 +36,7 @@ func generated(item Item, response Response) (string, error) {
 		const layout = "2006-01-02T15:04:05Z"
 		pubDate, err := time.Parse(layout, edge.Node.CommittedDate)
 		if err != nil {
-			return "", fmt.Errorf("Failed to parse date:", err)
+			return "", fmt.Errorf("failed to parse date: %v", err)
 		}
 
 		item := &feeds.Item{
@@ -55,7 +55,7 @@ func generated(item Item, response Response) (string, error) {
 
 	rss, err := feed.ToRss()
 	if err != nil {
-		return "", fmt.Errorf("Failed to convert to rss: %v\n", err)
+		return "", fmt.Errorf("failed to convert to rss: %v", err)
 	}
 
 	return rss, nil

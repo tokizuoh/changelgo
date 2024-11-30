@@ -29,7 +29,7 @@ func read() (Target, error) {
 	var target Target
 	err = yaml.Unmarshal(data, &target)
 	if err != nil {
-		return Target{}, fmt.Errorf("Error decoding to yaml: %v", err)
+		return Target{}, fmt.Errorf("error decoding to yaml: %v", err)
 	}
 
 	return target, nil

@@ -51,23 +51,23 @@ func fetch(item Item) (Response, error) {
 	client := &http.Client{}
 	resp, err := client.Do(req)
 	if err != nil {
-		return Response{}, fmt.Errorf("Failed to send request: %v\n", err)
+		return Response{}, fmt.Errorf("failed to send request: %v", err)
 	}
 	defer resp.Body.Close()
 
 	respBody, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return Response{}, fmt.Errorf("Failed to read response: %v\n", err)
+		return Response{}, fmt.Errorf("failed to read response: %v", err)
 	}
 
 	if resp.StatusCode != http.StatusOK {
-		return Response{}, fmt.Errorf("Non-OK HTTP status: %d\nResponse: %s\n", resp.StatusCode, string(respBody))
+		return Response{}, fmt.Errorf("non-OK HTTP status: %d\nResponse: %s", resp.StatusCode, string(respBody))
 	}
 
 	var response Response
 	err = json.Unmarshal(respBody, &response)
 	if err != nil {
-		return Response{}, fmt.Errorf("Failed to parse response: %v\n", err)
+		return Response{}, fmt.Errorf("failed to parse response: %v", err)
 	}
 
 	return response, nil
