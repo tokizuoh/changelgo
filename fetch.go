@@ -18,7 +18,7 @@ func fetch(item Item) (Response, error) {
 	queryFile := "Query.graphql"
 	queryBytes, err := os.ReadFile(queryFile)
 	if err != nil {
-		return Response{}, fmt.Errorf("Failed to read query file: %v\n", err)
+		return Response{}, fmt.Errorf("failed to read query file: %v", err)
 	}
 	query := string(queryBytes)
 
@@ -37,12 +37,12 @@ func fetch(item Item) (Response, error) {
 
 	bodyBytes, err := json.Marshal(body)
 	if err != nil {
-		return Response{}, fmt.Errorf("Failed to marshal body: %v\n", err)
+		return Response{}, fmt.Errorf("failed to marshal body: %v", err)
 	}
 
 	req, err := http.NewRequest("POST", "https://api.github.com/graphql", bytes.NewBuffer(bodyBytes))
 	if err != nil {
-		return Response{}, fmt.Errorf("Failed to create request: %v\n", err)
+		return Response{}, fmt.Errorf("failed to create request: %v", err)
 	}
 
 	req.Header.Set("Authorization", "Bearer "+token)
