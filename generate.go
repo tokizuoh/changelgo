@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/feeds"
 )
 
-func generated(item Item, response Response) (string, error) {
+func generate(item Item, response Response) (string, error) {
 	feed := &feeds.Feed{
 		Title: fmt.Sprintf("%s/%s %s", item.Owner, item.Repo, item.File),
 		Link: &feeds.Link{

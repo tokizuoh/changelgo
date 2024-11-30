@@ -19,7 +19,7 @@ func main() {
 			os.Exit(1)
 		}
 
-		rss, err := generated(item, response)
+		rss, err := generate(item, response)
 		if err != nil {
 			fmt.Println(err)
 			os.Exit(1)
