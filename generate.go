@@ -11,7 +11,7 @@ import (
 
 func generate(file File, response Response) (string, error) {
 	feed := &feeds.Feed{
-		Title: fmt.Sprintf("%s/%s %s", file.Owner, file.Repo, file.File),
+		Title: fmt.Sprintf("%s/%s %s", file.Owner, file.Repo, file.Name),
 		Link: &feeds.Link{
 			Href:   file.Link,
 			Rel:    "alternate",
@@ -19,7 +19,7 @@ func generate(file File, response Response) (string, error) {
 			Length: "",
 		},
 		// Description: "The commit history of the CHANGELOG.md in the swiftlang/swift repository.",
-		Description: fmt.Sprintf("The commit history of the %s in the %s/%s repository.", file.File, file.Owner, file.Repo),
+		Description: fmt.Sprintf("The commit history of the %s in the %s/%s repository.", file.Name, file.Owner, file.Repo),
 		Created:     time.Now(),
 	}
 

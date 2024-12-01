@@ -12,7 +12,9 @@ func main() {
 		os.Exit(1)
 	}
 
-	for _, file := range target.Files {
+	filelist := convert(target)
+
+	for _, file := range filelist.Files {
 		response, err := fetch(file)
 		if err != nil {
 			fmt.Println(err)

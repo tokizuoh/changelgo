@@ -27,7 +27,7 @@ func fetch(file File) (Response, error) {
 		"name":     file.Repo,
 		"branch":   file.Branch,
 		"first":    5,
-		"filePath": file.File,
+		"filePath": file.Name,
 	}
 
 	body := map[string]interface{}{
