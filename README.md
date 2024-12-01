@@ -13,16 +13,7 @@ Fork this repository.
 ```
 items:
   - link: https://github.com/swiftlang/swift/blob/main/CHANGELOG.md
-    owner: swiftlang
-    repo: swift
-    file: CHANGELOG.md
-    branch: main
-
   - link: https://github.com/swiftlang/swift-package-manager/blob/main/CHANGELOG.md
-    owner: swiftlang
-    repo: swift-package-manager
-    file: CHANGELOG.md
-    branch: main
 ```
 
 GitHub Actions regularly generates the RSS feed under the `./generated` directory.
