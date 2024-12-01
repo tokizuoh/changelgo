@@ -9,17 +9,17 @@ import (
 	"github.com/gorilla/feeds"
 )
 
-func generate(item Item, response Response) (string, error) {
+func generate(file File, response Response) (string, error) {
 	feed := &feeds.Feed{
-		Title: fmt.Sprintf("%s/%s %s", item.Owner, item.Repo, item.File),
+		Title: fmt.Sprintf("%s/%s %s", file.Owner, file.Repo, file.File),
 		Link: &feeds.Link{
-			Href:   item.Link,
+			Href:   file.Link,
 			Rel:    "alternate",
 			Type:   "text/html",
 			Length: "",
 		},
 		// Description: "The commit history of the CHANGELOG.md in the swiftlang/swift repository.",
-		Description: fmt.Sprintf("The commit history of the %s in the %s/%s repository.", item.File, item.Owner, item.Repo),
+		Description: fmt.Sprintf("The commit history of the %s in the %s/%s repository.", file.File, file.Owner, file.Repo),
 		Created:     time.Now(),
 	}
 

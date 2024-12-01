@@ -7,18 +7,18 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-func read() (Target, error) {
+func read() (FileList, error) {
 	filename := "items.yml"
 	data, err := os.ReadFile(filename)
 	if err != nil {
-		return Target{}, fmt.Errorf("error reading to file: %v", err)
+		return FileList{}, fmt.Errorf("error reading to file: %v", err)
 	}
 
-	var target Target
-	err = yaml.Unmarshal(data, &target)
+	var filelist FileList
+	err = yaml.Unmarshal(data, &filelist)
 	if err != nil {
-		return Target{}, fmt.Errorf("error decoding to yaml: %v", err)
+		return FileList{}, fmt.Errorf("error decoding to yaml: %v", err)
 	}
 
-	return target, nil
+	return filelist, nil
 }

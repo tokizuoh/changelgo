@@ -9,7 +9,7 @@ import (
 	"os"
 )
 
-func fetch(item Item) (Response, error) {
+func fetch(file File) (Response, error) {
 	token := os.Getenv("GITHUB_TOKEN")
 	if token == "" {
 		return Response{}, fmt.Errorf("GITHUB_TOKEN is not set")
@@ -23,11 +23,11 @@ func fetch(item Item) (Response, error) {
 	query := string(queryBytes)
 
 	variables := map[string]interface{}{
-		"owner":    item.Owner,
-		"name":     item.Repo,
-		"branch":   item.Branch,
+		"owner":    file.Owner,
+		"name":     file.Repo,
+		"branch":   file.Branch,
 		"first":    5,
-		"filePath": item.File,
+		"filePath": file.File,
 	}
 
 	body := map[string]interface{}{

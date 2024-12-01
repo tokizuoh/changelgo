@@ -12,20 +12,20 @@ func main() {
 		os.Exit(1)
 	}
 
-	for _, item := range target.Items {
-		response, err := fetch(item)
+	for _, file := range target.Files {
+		response, err := fetch(file)
 		if err != nil {
 			fmt.Println(err)
 			os.Exit(1)
 		}
 
-		rss, err := generate(item, response)
+		rss, err := generate(file, response)
 		if err != nil {
 			fmt.Println(err)
 			os.Exit(1)
 		}
 
-		filename := fmt.Sprintf("%s-%s-rss.xml", item.Owner, item.Repo)
+		filename := fmt.Sprintf("%s-%s-rss.xml", file.Owner, file.Repo)
 		err = write(rss, filename)
 		if err != nil {
 			fmt.Println(err)

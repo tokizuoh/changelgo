@@ -1,10 +1,10 @@
 package main
 
-type Target struct {
-	Items []Item `yaml:"items"`
+type FileList struct {
+	Files []File `yaml:"items"`
 }
 
-type Item struct {
+type File struct {
 	Link   string `yaml:"link"`
 	Owner  string `yaml:"owner"`
 	Repo   string `yaml:"repo"`
