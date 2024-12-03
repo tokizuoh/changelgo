@@ -3,7 +3,13 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Mon, 02 Dec 2024 00:39:02 +0000</pubDate>
+    <pubDate>Tue, 03 Dec 2024 00:38:28 +0000</pubDate>
+    <item>
+      <title>[CSApply] Avoid shortcutting argument conversion when parameter has an exte...</title>
+      <link>https://github.com/swiftlang/swift/commit/44908acd754f496ced927bcb02e52803eb7dbac3</link>
+      <description>[CSApply] Avoid shortcutting argument conversion when parameter has an external property wrapper&#xA;&#xA;The check to see whether argument matches the parameter exactly&#xA;causes two problems: prevents projected value initialized injection;&#xA;and, if there are multiple parameters with property wrappers,&#xA;would apply incorrect wrapper to other locations because the wrapper&#xA;application index wasn&#39;t incremented.&#xA;&#xA;Resolves: rdar://140282980</description>
+      <pubDate>Fri, 22 Nov 2024 22:02:06 +0000</pubDate>
+    </item>
     <item>
       <title>Update CHANGELOG.md (#77093)</title>
       <link>https://github.com/swiftlang/swift/commit/7a31f393576117ecc399b78dd593462434660f05</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/7381bf0da9616b88b649c940ea29de9b4200cb95</link>
       <description>Changelog: add notes about SE-0442&#xA;&#xA;Add a note about the accepted developer experience change from: https://github.com/swiftlang/swift-evolution/blob/main/proposals/0442-allow-taskgroup-childtaskresult-type-to-be-inferred.md</description>
       <pubDate>Wed, 07 Aug 2024 08:00:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fixed @preconcurrency syntax in CHANGELOG</title>
-      <link>https://github.com/swiftlang/swift/commit/2a188ed123da731dd3f1ec62a370573d37eccd51</link>
-      <description>Fixed @preconcurrency syntax in CHANGELOG</description>
-      <pubDate>Wed, 05 Jun 2024 14:11:30 +0000</pubDate>
     </item>
   </channel>
 </rss>
