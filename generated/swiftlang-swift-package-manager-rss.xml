@@ -3,7 +3,7 @@
     <title>swiftlang/swift-package-manager CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift-package-manager/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift-package-manager repository.</description>
-    <pubDate>Sat, 04 Jan 2025 00:33:44 +0000</pubDate>
+    <pubDate>Sun, 05 Jan 2025 00:38:08 +0000</pubDate>
     <item>
       <title>Fix link in `CHANGELOG.md`, add `swift sdk install --checksum` item (#7935)...</title>
       <link>https://github.com/swiftlang/swift-package-manager/commit/6d4693ff39821455e8ed6f0ed3477ae8d2fcfcfc</link>
