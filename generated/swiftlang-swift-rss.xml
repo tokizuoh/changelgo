@@ -3,7 +3,7 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Tue, 21 Jan 2025 00:33:34 +0000</pubDate>
+    <pubDate>Wed, 22 Jan 2025 00:34:21 +0000</pubDate>
     <item>
       <title>[CSApply] Avoid shortcutting argument conversion when parameter has an exte...</title>
       <link>https://github.com/swiftlang/swift/commit/44908acd754f496ced927bcb02e52803eb7dbac3</link>
