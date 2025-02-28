@@ -3,7 +3,13 @@
     <title>swiftlang/swift-package-manager CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift-package-manager/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift-package-manager repository.</description>
-    <pubDate>Thu, 27 Feb 2025 00:35:29 +0000</pubDate>
+    <pubDate>Fri, 28 Feb 2025 00:35:51 +0000</pubDate>
+    <item>
+      <title>[SE-0458] Implement the strictMemorySafety Swift setting (#8314) Implement...</title>
+      <link>https://github.com/swiftlang/swift-package-manager/commit/ad0cd52d578e0289e3bf9015e7b90da1a3e688cb</link>
+      <description>[SE-0458] Implement the strictMemorySafety Swift setting (#8314)&#xA;&#xA;Implements the `strictMemorySafety` Swift setting introduced in&#xA;[SE-0458](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0458-strict-memory-safety.md).</description>
+      <pubDate>Thu, 27 Feb 2025 08:11:31 +0000</pubDate>
+    </item>
     <item>
       <title>Fix link in `CHANGELOG.md`, add `swift sdk install --checksum` item (#7935)...</title>
       <link>https://github.com/swiftlang/swift-package-manager/commit/6d4693ff39821455e8ed6f0ed3477ae8d2fcfcfc</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift-package-manager/commit/54652f6a61a69ea51e65082050b7d175f19a6f19</link>
       <description>Clarify unsupported direct macro module imports in `CHANGELOG.md` (#7754)&#xA;&#xA;Importing macro modules directly to use those macros was never supposed&#xD;&#xA;to work, and now with macro modules built for the host triple, importing&#xD;&#xA;such macro modules in modules built for the target triple will fail.</description>
       <pubDate>Mon, 08 Jul 2024 17:37:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Update all links to point to new swiftlang locations (#7729) Update all li...</title>
-      <link>https://github.com/swiftlang/swift-package-manager/commit/2c59f94ce90686d1e8a0d027143a8900c3efc37f</link>
-      <description>Update all links to point to new swiftlang locations (#7729)&#xA;&#xA;Update all links to point to new swiftlang locations&#xD;&#xA;&#xD;&#xA;### Motivation:&#xD;&#xA;&#xD;&#xA;Make sure that all links are pointing to the new canonical location&#xD;&#xA;&#xD;&#xA;### Modifications:&#xD;&#xA;&#xD;&#xA;apple/swift-evolution -&gt; swiftlang/swift-evolution&#xD;&#xA;apple/swift-package-manager -&gt; swiftlang/swift-package-manager&#xD;&#xA;&#xD;&#xA;### Result:&#xD;&#xA;&#xD;&#xA;Shiny new links</description>
-      <pubDate>Sun, 30 Jun 2024 18:44:28 +0000</pubDate>
     </item>
   </channel>
 </rss>
