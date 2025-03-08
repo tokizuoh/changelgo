@@ -3,7 +3,7 @@
     <title>swiftlang/swift-package-manager CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift-package-manager/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift-package-manager repository.</description>
-    <pubDate>Fri, 07 Mar 2025 00:36:33 +0000</pubDate>
+    <pubDate>Sat, 08 Mar 2025 00:28:32 +0000</pubDate>
     <item>
       <title>[SE-0458] Implement the strictMemorySafety Swift setting (#8314) Implement...</title>
       <link>https://github.com/swiftlang/swift-package-manager/commit/ad0cd52d578e0289e3bf9015e7b90da1a3e688cb</link>
