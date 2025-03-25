@@ -3,7 +3,13 @@
     <title>swiftlang/swift-package-manager CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift-package-manager/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift-package-manager repository.</description>
-    <pubDate>Mon, 24 Mar 2025 00:38:43 +0000</pubDate>
+    <pubDate>Tue, 25 Mar 2025 00:37:29 +0000</pubDate>
+    <item>
+      <title>[Changelog] NFC: Add an entry for SE-0466 (#8403)</title>
+      <link>https://github.com/swiftlang/swift-package-manager/commit/16b57de48a599acabe2c104e213deef9df034179</link>
+      <description>[Changelog] NFC: Add an entry for SE-0466 (#8403)</description>
+      <pubDate>Mon, 24 Mar 2025 23:45:48 +0000</pubDate>
+    </item>
     <item>
       <title>[SE-0458] Implement the strictMemorySafety Swift setting (#8314) Implement...</title>
       <link>https://github.com/swiftlang/swift-package-manager/commit/ad0cd52d578e0289e3bf9015e7b90da1a3e688cb</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift-package-manager/commit/bc9a9e3964ca826a755caf8f1622a2e9452855f2</link>
       <description>Move the &#39;GitRepositoryProvider&#39; to compare urls using their canonical representation, correctly accepting results where repositories only differ by &#39;.git&#39; (#7741)&#xA;&#xA;### Motivation:&#xD;&#xA;&#xD;&#xA;Resolving local package dependencies often outputs a warning:&#xD;&#xA;&lt;path&gt; is not valid git repository for &#39;&lt;repo&gt;&#39;, will fetch again.&#xD;&#xA;&#xD;&#xA;### Modifications:&#xD;&#xA;&#xD;&#xA;The underlying issue is that updating packages with a local SCM path&#xD;&#xA;dependency always fail, as the shell-based repository URL has a file://&#xD;&#xA;scheme, while the absolute path string does not.&#xD;&#xA;&#xD;&#xA;### Result:&#xD;&#xA;&#xD;&#xA;After this change we only compare the canonical URLs, which will resolve&#xD;&#xA;the inconsistency of comparing strings without considering the scheme&#xD;&#xA;and / or path extension.&#xD;&#xA;&#xD;&#xA;Validating the origin of checked-out repositories no longer ensures that&#xD;&#xA;the path extension (often .git) matches the repository&#39;s specifier, as&#xD;&#xA;different git clients inconsistently preserve the path extension of the&#xD;&#xA;remote. Moving to the CanonicalPackageURL also ensures that absolute&#xD;&#xA;paths are treated as urls with a file:// scheme, matching git&#39;s&#xD;&#xA;behavior.</description>
       <pubDate>Mon, 22 Jul 2024 22:21:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Clarify unsupported direct macro module imports in `CHANGELOG.md` (#7754) ...</title>
-      <link>https://github.com/swiftlang/swift-package-manager/commit/54652f6a61a69ea51e65082050b7d175f19a6f19</link>
-      <description>Clarify unsupported direct macro module imports in `CHANGELOG.md` (#7754)&#xA;&#xA;Importing macro modules directly to use those macros was never supposed&#xD;&#xA;to work, and now with macro modules built for the host triple, importing&#xD;&#xA;such macro modules in modules built for the target triple will fail.</description>
-      <pubDate>Mon, 08 Jul 2024 17:37:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
