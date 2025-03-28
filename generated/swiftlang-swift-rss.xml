@@ -3,7 +3,19 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Thu, 27 Mar 2025 00:37:00 +0000</pubDate>
+    <pubDate>Fri, 28 Mar 2025 00:37:01 +0000</pubDate>
+    <item>
+      <title>[Changelog] Add SE-0419 link reference. Add a link reference to SE-0419.</title>
+      <link>https://github.com/swiftlang/swift/commit/c93af641041fe8073c891064c84c357e4e298e7f</link>
+      <description>[Changelog] Add SE-0419 link reference.&#xA;&#xA;Add a link reference to SE-0419.</description>
+      <pubDate>Wed, 26 Mar 2025 11:46:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Changelog] Add SE-0419 to the changelog. This is now implemented, at leas...</title>
+      <link>https://github.com/swiftlang/swift/commit/8c6cca57325866aa09c67b516074873822263d92</link>
+      <description>[Changelog] Add SE-0419 to the changelog.&#xA;&#xA;This is now implemented, at least for macOS and Linux.</description>
+      <pubDate>Tue, 25 Mar 2025 11:54:25 +0000</pubDate>
+    </item>
     <item>
       <title>Merge pull request #79653 from AnthonyLatsis/galeocerdo-cuvier [NFC] CHANG...</title>
       <link>https://github.com/swiftlang/swift/commit/f6e9b68ee6d66b975b76d2767e19e41fcad092cd</link>
@@ -21,18 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/7977e4682ce47a0790b5283ddc66a2818f830275</link>
       <description>Add a ChangeLog entry for SE-0458</description>
       <pubDate>Wed, 26 Feb 2025 21:13:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Diagnose and forbid invalid Swift names on inits Initializers should alway...</title>
-      <link>https://github.com/swiftlang/swift/commit/12d0458eb2eae5d777cf33650bab89e40524a895</link>
-      <description>Diagnose and forbid invalid Swift names on inits&#xA;&#xA;Initializers should always have Swift names that have the special `DeclBaseName::createConstructor()` base name. Although there is an assertion to this effect in the constructor for ConstructorDecl, ClangImporter did not actually reject custom Swift names for initializers that violated this rule. This meant that asserts compilers would crash if they encountered code with an invalid `swift_name` attribute, while release compilers would silently accept them (while excluding these decls from certain checks since lookups that were supposed to find all initializers didn’t find them).&#xA;&#xA;Modify ClangImporter to diagnose this condition and ignore the custom Swift name.</description>
-      <pubDate>Tue, 11 Feb 2025 20:05:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>[CSApply] Avoid shortcutting argument conversion when parameter has an exte...</title>
-      <link>https://github.com/swiftlang/swift/commit/44908acd754f496ced927bcb02e52803eb7dbac3</link>
-      <description>[CSApply] Avoid shortcutting argument conversion when parameter has an external property wrapper&#xA;&#xA;The check to see whether argument matches the parameter exactly&#xA;causes two problems: prevents projected value initialized injection;&#xA;and, if there are multiple parameters with property wrappers,&#xA;would apply incorrect wrapper to other locations because the wrapper&#xA;application index wasn&#39;t incremented.&#xA;&#xA;Resolves: rdar://140282980</description>
-      <pubDate>Fri, 22 Nov 2024 22:02:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
