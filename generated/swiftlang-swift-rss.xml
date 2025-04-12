@@ -3,7 +3,13 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Fri, 11 Apr 2025 00:38:00 +0000</pubDate>
+    <pubDate>Sat, 12 Apr 2025 00:37:07 +0000</pubDate>
+    <item>
+      <title>AST: Stop diagnosing potentially unavailable declarations in unavailable co...</title>
+      <link>https://github.com/swiftlang/swift/commit/ae21f8d390121ad61ecc22907dd13e60f56b8211</link>
+      <description>AST: Stop diagnosing potentially unavailable declarations in unavailable contexts.&#xA;&#xA;Potential unavailability of a declaration has always been diagnosed in contexts&#xA;that do not have a sufficient platform introduction constraint, even when those&#xA;contexts are also unavailable on the target platform. This behavior is overly&#xA;strict, since the potential unavailability will never matter, but it&#39;s a&#xA;longstanding quirk of availability checking. As a result, some source code has&#xA;been written to work around this quirk by marking declarations as&#xA;simultaneously unavailable and introduced for a given platform:&#xA;&#xA;```&#xA;@available(macOS, unavailable, introduced: 15)&#xA;func unavailableAndIntroducedInMacOS15() {&#xA;  // ... allowed to call functions introduced in macOS 15.&#xA;}&#xA;```&#xA;&#xA;When availability checking was refactored to be based on a constraint engine in&#xA;https://github.com/swiftlang/swift/pull/79260, the compiler started effectively&#xA;treating `@available(macOS, unavailable, introduced: 15)` as just&#xA;`@available(macOS, unavailable)` because the introduction constraint was&#xA;treated as lower priority and therefore superseded by the unavailability&#xA;constraint. This caused a regression for the code that was written to work&#xA;around the availability checker&#39;s strictness.&#xA;&#xA;We could try to match the behavior from previous releases, but it&#39;s actually&#xA;tricky to match the behavior well enough in the new availability checking&#xA;architecture to fully fix source compatibility. Consequently, it seems like the&#xA;best fix is actually to address this long standing issue and stop diagnosing&#xA;potential unavailability in unavailable contexts. The main risk of this&#xA;approach is source compatibility for regions of unavailable code. It&#39;s&#xA;theoretically possible that restricting available declarations by introduction&#xA;version in unavailable contexts is important to prevent ambiguities during&#xA;overload resolution in some codebases. If we find that is a problem that is too&#xA;prevalent, we may have to take a different approach.&#xA;&#xA;Resolves rdar://147945883.</description>
+      <pubDate>Fri, 11 Apr 2025 18:50:29 +0000</pubDate>
+    </item>
     <item>
       <title>Update ChangeLog for strict memory safety</title>
       <link>https://github.com/swiftlang/swift/commit/868ec3bfbced89f66a7e30370a5717b59f1419eb</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/f6e9b68ee6d66b975b76d2767e19e41fcad092cd</link>
       <description>Merge pull request #79653 from AnthonyLatsis/galeocerdo-cuvier&#xA;&#xA;[NFC] CHANGELOG: Log new existential `any` diagnostic behavior</description>
       <pubDate>Fri, 28 Feb 2025 18:28:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>[NFC] CHANGELOG: Log new existential `any` diagnostic behavior</title>
-      <link>https://github.com/swiftlang/swift/commit/51ae6e7621c597a0f44c8af0118d0012c4d172d7</link>
-      <description>[NFC] CHANGELOG: Log new existential `any` diagnostic behavior</description>
-      <pubDate>Thu, 27 Feb 2025 04:50:35 +0000</pubDate>
     </item>
   </channel>
 </rss>
