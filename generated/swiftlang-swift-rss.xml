@@ -3,7 +3,7 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Sat, 12 Apr 2025 00:37:07 +0000</pubDate>
+    <pubDate>Sun, 13 Apr 2025 02:04:45 +0000</pubDate>
     <item>
       <title>AST: Stop diagnosing potentially unavailable declarations in unavailable co...</title>
       <link>https://github.com/swiftlang/swift/commit/ae21f8d390121ad61ecc22907dd13e60f56b8211</link>
