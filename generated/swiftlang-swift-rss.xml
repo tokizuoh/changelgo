@@ -3,36 +3,36 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Wed, 02 Jul 2025 00:41:20 +0000</pubDate>
+    <pubDate>Thu, 03 Jul 2025 00:41:40 +0000</pubDate>
     <item>
-      <title>Grammatical corrections for compound modifiers</title>
-      <link>https://github.com/swiftlang/swift/commit/c9b17383c861dbde5b331427ba6a296ec0df17e6</link>
-      <description>Grammatical corrections for compound modifiers</description>
-      <pubDate>Thu, 24 Apr 2025 07:21:32 +0000</pubDate>
+      <title>changelog: include `isolated deinit` in changelog</title>
+      <link>https://github.com/swiftlang/swift/commit/9d16901b59d501f572949bf046302c8422003fd0</link>
+      <description>changelog: include `isolated deinit` in changelog</description>
+      <pubDate>Tue, 01 Jul 2025 03:26:35 +0000</pubDate>
     </item>
     <item>
-      <title>[SE-0470] Enable isolated conformances by default The IsolatedConformances...</title>
-      <link>https://github.com/swiftlang/swift/commit/3380331e7eb5ffb0b188d392ca533f7a24f0f1c2</link>
-      <description>[SE-0470] Enable isolated conformances by default&#xA;&#xA;The IsolatedConformances feature moves to a normal, supported feature.&#xA;Remove all of the experimental-feature flags on test cases and such.&#xA;&#xA;The InferIsolatedConformances feature moves to an upcoming feature for&#xA;Swift 7. This should become an adoptable feature, adding &#34;nonisolated&#34;&#xA;where needed.</description>
-      <pubDate>Sun, 13 Apr 2025 22:41:53 +0000</pubDate>
+      <title>changelog: nonisolated async funcs may run on caller isolation now</title>
+      <link>https://github.com/swiftlang/swift/commit/61e179df6cc8d040b205584fdf26be38d37d8ea3</link>
+      <description>changelog: nonisolated async funcs may run on caller isolation now</description>
+      <pubDate>Tue, 01 Jul 2025 03:21:37 +0000</pubDate>
     </item>
     <item>
-      <title>AST: Stop diagnosing potentially unavailable declarations in unavailable co...</title>
-      <link>https://github.com/swiftlang/swift/commit/ae21f8d390121ad61ecc22907dd13e60f56b8211</link>
-      <description>AST: Stop diagnosing potentially unavailable declarations in unavailable contexts.&#xA;&#xA;Potential unavailability of a declaration has always been diagnosed in contexts&#xA;that do not have a sufficient platform introduction constraint, even when those&#xA;contexts are also unavailable on the target platform. This behavior is overly&#xA;strict, since the potential unavailability will never matter, but it&#39;s a&#xA;longstanding quirk of availability checking. As a result, some source code has&#xA;been written to work around this quirk by marking declarations as&#xA;simultaneously unavailable and introduced for a given platform:&#xA;&#xA;```&#xA;@available(macOS, unavailable, introduced: 15)&#xA;func unavailableAndIntroducedInMacOS15() {&#xA;  // ... allowed to call functions introduced in macOS 15.&#xA;}&#xA;```&#xA;&#xA;When availability checking was refactored to be based on a constraint engine in&#xA;https://github.com/swiftlang/swift/pull/79260, the compiler started effectively&#xA;treating `@available(macOS, unavailable, introduced: 15)` as just&#xA;`@available(macOS, unavailable)` because the introduction constraint was&#xA;treated as lower priority and therefore superseded by the unavailability&#xA;constraint. This caused a regression for the code that was written to work&#xA;around the availability checker&#39;s strictness.&#xA;&#xA;We could try to match the behavior from previous releases, but it&#39;s actually&#xA;tricky to match the behavior well enough in the new availability checking&#xA;architecture to fully fix source compatibility. Consequently, it seems like the&#xA;best fix is actually to address this long standing issue and stop diagnosing&#xA;potential unavailability in unavailable contexts. The main risk of this&#xA;approach is source compatibility for regions of unavailable code. It&#39;s&#xA;theoretically possible that restricting available declarations by introduction&#xA;version in unavailable contexts is important to prevent ambiguities during&#xA;overload resolution in some codebases. If we find that is a problem that is too&#xA;prevalent, we may have to take a different approach.&#xA;&#xA;Resolves rdar://147945883.</description>
-      <pubDate>Fri, 11 Apr 2025 18:50:29 +0000</pubDate>
+      <title>changelog: task priority escalation handlers</title>
+      <link>https://github.com/swiftlang/swift/commit/a27cf87737fc2f508b9922150dfce951c7588822</link>
+      <description>changelog: task priority escalation handlers</description>
+      <pubDate>Tue, 01 Jul 2025 03:16:17 +0000</pubDate>
     </item>
     <item>
-      <title>Update ChangeLog for strict memory safety</title>
-      <link>https://github.com/swiftlang/swift/commit/868ec3bfbced89f66a7e30370a5717b59f1419eb</link>
-      <description>Update ChangeLog for strict memory safety</description>
-      <pubDate>Fri, 28 Mar 2025 22:07:16 +0000</pubDate>
+      <title>[changelog] add task names to changelog</title>
+      <link>https://github.com/swiftlang/swift/commit/9f5d8a60de1d64595d5197bba270ce6ffad75fac</link>
+      <description>[changelog] add task names to changelog</description>
+      <pubDate>Tue, 01 Jul 2025 03:13:09 +0000</pubDate>
     </item>
     <item>
-      <title>[Changelog] Add SE-0419 link reference. Add a link reference to SE-0419.</title>
-      <link>https://github.com/swiftlang/swift/commit/c93af641041fe8073c891064c84c357e4e298e7f</link>
-      <description>[Changelog] Add SE-0419 link reference.&#xA;&#xA;Add a link reference to SE-0419.</description>
-      <pubDate>Wed, 26 Mar 2025 11:46:03 +0000</pubDate>
+      <title>[changelog] add Task.immediate SE-0472 to changelog</title>
+      <link>https://github.com/swiftlang/swift/commit/81a06ccb2dbb9ce32211677b70354aa6fcb54548</link>
+      <description>[changelog] add Task.immediate SE-0472 to changelog</description>
+      <pubDate>Tue, 01 Jul 2025 03:08:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
