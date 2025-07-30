@@ -3,7 +3,7 @@
     <title>swiftlang/swift-package-manager CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift-package-manager/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift-package-manager repository.</description>
-    <pubDate>Tue, 29 Jul 2025 00:49:33 +0000</pubDate>
+    <pubDate>Wed, 30 Jul 2025 00:44:36 +0000</pubDate>
     <item>
       <title>[Changelog] NFC: Add an entry for SE-0466 (#8403)</title>
       <link>https://github.com/swiftlang/swift-package-manager/commit/16b57de48a599acabe2c104e213deef9df034179</link>
