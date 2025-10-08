@@ -3,7 +3,13 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Tue, 07 Oct 2025 00:37:22 +0000</pubDate>
+    <pubDate>Wed, 08 Oct 2025 00:37:08 +0000</pubDate>
+    <item>
+      <title>Introduce separately-imported stdlib overlays The `_Concurrency` and `_Str...</title>
+      <link>https://github.com/swiftlang/swift/commit/3abbfaa9cbf6acb321706efd5f7208f75fb188fc</link>
+      <description>Introduce separately-imported stdlib overlays&#xA;&#xA;The `_Concurrency` and `_StringProcessing` modules are implementation details of the standard library; to developers, their contents should behave as though they are declared directly within module `Swift`. This is the exact same behavior we expect of cross-import overlays, so treat these modules as though they are cross-import overlays with no bystanding module.&#xA;&#xA;Because these modules don’t re-export the standard library, it’s also necessary to treat `Swift` as a separately imported overlay of itself; do so and make that actually work.</description>
+      <pubDate>Thu, 02 Oct 2025 19:05:12 +0000</pubDate>
+    </item>
     <item>
       <title>changelog: include `isolated deinit` in changelog</title>
       <link>https://github.com/swiftlang/swift/commit/9d16901b59d501f572949bf046302c8422003fd0</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/9f5d8a60de1d64595d5197bba270ce6ffad75fac</link>
       <description>[changelog] add task names to changelog</description>
       <pubDate>Tue, 01 Jul 2025 03:13:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>[changelog] add Task.immediate SE-0472 to changelog</title>
-      <link>https://github.com/swiftlang/swift/commit/81a06ccb2dbb9ce32211677b70354aa6fcb54548</link>
-      <description>[changelog] add Task.immediate SE-0472 to changelog</description>
-      <pubDate>Tue, 01 Jul 2025 03:08:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
