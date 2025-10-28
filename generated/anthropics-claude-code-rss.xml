@@ -3,7 +3,13 @@
     <title>anthropics/claude-code CHANGELOG.md</title>
     <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the anthropics/claude-code repository.</description>
-    <pubDate>Mon, 27 Oct 2025 00:43:17 +0000</pubDate>
+    <pubDate>Tue, 28 Oct 2025 00:37:56 +0000</pubDate>
+    <item>
+      <title>chore: Update CHANGELOG.md</title>
+      <link>https://github.com/anthropics/claude-code/commit/8077cdc68c65ad886208c65e09a848582b1c27e3</link>
+      <description>chore: Update CHANGELOG.md</description>
+      <pubDate>Mon, 27 Oct 2025 21:29:34 +0000</pubDate>
+    </item>
     <item>
       <title>chore: Update CHANGELOG.md</title>
       <link>https://github.com/anthropics/claude-code/commit/1b41969c71b1f421d0327b62d97f5a48cd1b9608</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/anthropics/claude-code/commit/fb9d9169a0276871f9da7f76477d5e5023f0c49e</link>
       <description>chore: Update CHANGELOG.md</description>
       <pubDate>Sat, 18 Oct 2025 00:27:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md</title>
-      <link>https://github.com/anthropics/claude-code/commit/0ea180e55e8647e0bd913dbeb3245096396e4690</link>
-      <description>chore: Update CHANGELOG.md</description>
-      <pubDate>Fri, 17 Oct 2025 22:26:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
