@@ -3,7 +3,13 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Fri, 14 Nov 2025 00:40:51 +0000</pubDate>
+    <pubDate>Sat, 15 Nov 2025 00:39:23 +0000</pubDate>
+    <item>
+      <title>Add module selectors to changelog</title>
+      <link>https://github.com/swiftlang/swift/commit/4d78b3795d85f094d14754841073fa9c08dc80ca</link>
+      <description>Add module selectors to changelog</description>
+      <pubDate>Sat, 08 Nov 2025 05:55:49 +0000</pubDate>
+    </item>
     <item>
       <title>Introduce separately-imported stdlib overlays The `_Concurrency` and `_Str...</title>
       <link>https://github.com/swiftlang/swift/commit/3abbfaa9cbf6acb321706efd5f7208f75fb188fc</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/a27cf87737fc2f508b9922150dfce951c7588822</link>
       <description>changelog: task priority escalation handlers</description>
       <pubDate>Tue, 01 Jul 2025 03:16:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>[changelog] add task names to changelog</title>
-      <link>https://github.com/swiftlang/swift/commit/9f5d8a60de1d64595d5197bba270ce6ffad75fac</link>
-      <description>[changelog] add task names to changelog</description>
-      <pubDate>Tue, 01 Jul 2025 03:13:09 +0000</pubDate>
     </item>
   </channel>
 </rss>
