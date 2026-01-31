@@ -3,7 +3,13 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Fri, 30 Jan 2026 00:53:42 +0000</pubDate>
+    <pubDate>Sat, 31 Jan 2026 00:51:00 +0000</pubDate>
+    <item>
+      <title>CHANGELOG: Explain that objc bridging is using Task.immediate (#86885)</title>
+      <link>https://github.com/swiftlang/swift/commit/65c2527f1d32ff8b49209ff2cf819d958eb4e8d7</link>
+      <description>CHANGELOG: Explain that objc bridging is using Task.immediate (#86885)</description>
+      <pubDate>Fri, 30 Jan 2026 12:17:29 +0000</pubDate>
+    </item>
     <item>
       <title>[changelog] more wording changes</title>
       <link>https://github.com/swiftlang/swift/commit/5bc9f91284bb4bc7ba2d38cedb7be8e7d72b0b85</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/3b1bf0795b84886e15a1a8de840ab22321212794</link>
       <description>Concurrency: improve withTaskPriorityEscal... docs and adopt noniso(nonsend) (#86282)</description>
       <pubDate>Tue, 06 Jan 2026 03:53:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Add module selectors to changelog</title>
-      <link>https://github.com/swiftlang/swift/commit/4d78b3795d85f094d14754841073fa9c08dc80ca</link>
-      <description>Add module selectors to changelog</description>
-      <pubDate>Sat, 08 Nov 2025 05:55:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
