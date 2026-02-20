@@ -3,7 +3,19 @@
     <title>anthropics/claude-code CHANGELOG.md</title>
     <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the anthropics/claude-code repository.</description>
-    <pubDate>Thu, 19 Feb 2026 00:58:35 +0000</pubDate>
+    <pubDate>Fri, 20 Feb 2026 00:54:29 +0000</pubDate>
+    <item>
+      <title>chore: Update CHANGELOG.md</title>
+      <link>https://github.com/anthropics/claude-code/commit/0d996a7c346e2f3aca34e3488e49f1da537d7811</link>
+      <description>chore: Update CHANGELOG.md</description>
+      <pubDate>Thu, 19 Feb 2026 23:55:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>chore: Update CHANGELOG.md Fixes #26637</title>
+      <link>https://github.com/anthropics/claude-code/commit/b18f2e7df08f2226007f7f11d1033054c36e1714</link>
+      <description>chore: Update CHANGELOG.md&#xA;&#xA;Fixes #26637</description>
+      <pubDate>Thu, 19 Feb 2026 23:27:35 +0000</pubDate>
+    </item>
     <item>
       <title>chore: Update CHANGELOG.md Fixes #31 Fixes #17600 Fixes #22020 Fixes #2361...</title>
       <link>https://github.com/anthropics/claude-code/commit/b757fc9ecdf77e450442e3ca9f9093a9da35952b</link>
@@ -21,18 +33,6 @@
       <link>https://github.com/anthropics/claude-code/commit/32c7ff2b6e398090e8c4f3ec7761be701a11c269</link>
       <description>chore: Update CHANGELOG.md</description>
       <pubDate>Tue, 17 Feb 2026 13:21:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md</title>
-      <link>https://github.com/anthropics/claude-code/commit/d787369919b749ec4d910fb48dea3f06fc33866a</link>
-      <description>chore: Update CHANGELOG.md</description>
-      <pubDate>Mon, 16 Feb 2026 21:34:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md</title>
-      <link>https://github.com/anthropics/claude-code/commit/b374a306996aa4d65a4b5299934d62a3a332c3b8</link>
-      <description>chore: Update CHANGELOG.md</description>
-      <pubDate>Fri, 13 Feb 2026 20:01:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
