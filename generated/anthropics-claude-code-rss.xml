@@ -3,7 +3,19 @@
     <title>anthropics/claude-code CHANGELOG.md</title>
     <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the anthropics/claude-code repository.</description>
-    <pubDate>Tue, 10 Mar 2026 00:51:47 +0000</pubDate>
+    <pubDate>Wed, 11 Mar 2026 00:52:47 +0000</pubDate>
+    <item>
+      <title>chore: Update CHANGELOG.md</title>
+      <link>https://github.com/anthropics/claude-code/commit/f6dbf44cd5f5a90f8fd2608c13f3d7bcf15bfe6f</link>
+      <description>chore: Update CHANGELOG.md</description>
+      <pubDate>Tue, 10 Mar 2026 01:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>chore: Update CHANGELOG.md</title>
+      <link>https://github.com/anthropics/claude-code/commit/540b61b9fd8b4f823dd8ebfb8075eebf1fffdaf5</link>
+      <description>chore: Update CHANGELOG.md</description>
+      <pubDate>Tue, 10 Mar 2026 01:04:32 +0000</pubDate>
+    </item>
     <item>
       <title>chore: Update CHANGELOG.md</title>
       <link>https://github.com/anthropics/claude-code/commit/00553dec20a7b3ad58252a22de7cf1b45ee20330</link>
@@ -21,18 +33,6 @@
       <link>https://github.com/anthropics/claude-code/commit/da80366c484698e6370ad9e8abf121f33f8f79e0</link>
       <description>chore: Update CHANGELOG.md</description>
       <pubDate>Fri, 06 Mar 2026 01:19:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md Fixes #28334 Fixes #30185</title>
-      <link>https://github.com/anthropics/claude-code/commit/9582ad480f687bbeaf0025852ac4f020b07f20bb</link>
-      <description>chore: Update CHANGELOG.md&#xA;&#xA;Fixes #28334&#xA;Fixes #30185</description>
-      <pubDate>Thu, 05 Mar 2026 00:25:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md</title>
-      <link>https://github.com/anthropics/claude-code/commit/0b3f7cbbbd8c0e78c4bb63134ead608c555df5de</link>
-      <description>chore: Update CHANGELOG.md</description>
-      <pubDate>Wed, 04 Mar 2026 10:10:30 +0000</pubDate>
     </item>
   </channel>
 </rss>
