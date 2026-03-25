@@ -3,7 +3,13 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Tue, 24 Mar 2026 00:54:18 +0000</pubDate>
+    <pubDate>Wed, 25 Mar 2026 00:59:06 +0000</pubDate>
+    <item>
+      <title>[CHANGELOG] NFC: Add add an entry for SE-0518</title>
+      <link>https://github.com/swiftlang/swift/commit/7705d464728349e0caf9bf35a769f51da400d21e</link>
+      <description>[CHANGELOG] NFC: Add add an entry for SE-0518</description>
+      <pubDate>Mon, 23 Mar 2026 17:03:34 +0000</pubDate>
+    </item>
     <item>
       <title>Revert &#34;CHANGELOG: Explain that objc bridging is using Task.immediate (#868...</title>
       <link>https://github.com/swiftlang/swift/commit/727807ca0de5126987c4a75dc0d6033e49f9d7fc</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/9724348f8648f5dded2fda2db202a3e83e154043</link>
       <description>AST: Allow anyAppleOS availability without an experimental feature.&#xA;&#xA;Resolves rdar://170988964.</description>
       <pubDate>Mon, 02 Mar 2026 22:05:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>CHANGELOG: Add SE-0504 Task Cancellation Shields (#87251) Added SE-0504 Ta...</title>
-      <link>https://github.com/swiftlang/swift/commit/45f09e61e396e9465a8d3ad70fb44b8b3111429e</link>
-      <description>CHANGELOG: Add SE-0504 Task Cancellation Shields (#87251)&#xA;&#xA;Added SE-0504 Task Cancellation Shields to changelog.&#xA;&#xA;---------&#xA;&#xA;Co-authored-by: Jamie &lt;2119834+jamieQ@users.noreply.github.com&gt;</description>
-      <pubDate>Tue, 17 Feb 2026 21:06:02 +0000</pubDate>
     </item>
   </channel>
 </rss>
