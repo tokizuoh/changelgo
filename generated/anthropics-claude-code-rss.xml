@@ -3,7 +3,19 @@
     <title>anthropics/claude-code CHANGELOG.md</title>
     <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the anthropics/claude-code repository.</description>
-    <pubDate>Tue, 31 Mar 2026 01:05:41 +0000</pubDate>
+    <pubDate>Wed, 01 Apr 2026 01:11:55 +0000</pubDate>
+    <item>
+      <title>chore: Update CHANGELOG.md</title>
+      <link>https://github.com/anthropics/claude-code/commit/b4fa5f85f3d2e02b47f67ab2e348ce6101fb7b5a</link>
+      <description>chore: Update CHANGELOG.md</description>
+      <pubDate>Wed, 01 Apr 2026 01:07:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>chore: Update CHANGELOG.md</title>
+      <link>https://github.com/anthropics/claude-code/commit/66ab4ae6e022a5f0d6537a10771815052957c784</link>
+      <description>chore: Update CHANGELOG.md</description>
+      <pubDate>Tue, 31 Mar 2026 14:35:56 +0000</pubDate>
+    </item>
     <item>
       <title>chore: Update CHANGELOG.md</title>
       <link>https://github.com/anthropics/claude-code/commit/2d5c1bab92971bbdaecdb1767481973215ee7f2d</link>
@@ -21,18 +33,6 @@
       <link>https://github.com/anthropics/claude-code/commit/2923bc87d10da4fda57570313f2abbc5b457fed1</link>
       <description>chore: Update CHANGELOG.md</description>
       <pubDate>Fri, 27 Mar 2026 21:42:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md</title>
-      <link>https://github.com/anthropics/claude-code/commit/f75b6138eff5f36c48e7c4ddb2fe44b959ac2d8c</link>
-      <description>chore: Update CHANGELOG.md</description>
-      <pubDate>Thu, 26 Mar 2026 22:52:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md Fixes #123</title>
-      <link>https://github.com/anthropics/claude-code/commit/a0d9b87038e72d8a523b61c152ec53299ac6fe94</link>
-      <description>chore: Update CHANGELOG.md&#xA;&#xA;Fixes #123</description>
-      <pubDate>Thu, 26 Mar 2026 00:30:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

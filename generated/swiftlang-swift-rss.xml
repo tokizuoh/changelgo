@@ -3,7 +3,19 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Tue, 31 Mar 2026 01:05:40 +0000</pubDate>
+    <pubDate>Wed, 01 Apr 2026 01:11:54 +0000</pubDate>
+    <item>
+      <title>Merge branch &#39;main&#39; into async-defer-changelog</title>
+      <link>https://github.com/swiftlang/swift/commit/2a1f78c916777bf95e822515855953e948ffb196</link>
+      <description>Merge branch &#39;main&#39; into async-defer-changelog</description>
+      <pubDate>Sat, 28 Mar 2026 18:03:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Update link format</title>
+      <link>https://github.com/swiftlang/swift/commit/8dd50f4649242cdd0794de05886fa2394b4533e8</link>
+      <description>Update link format</description>
+      <pubDate>Sat, 28 Mar 2026 18:02:37 +0000</pubDate>
+    </item>
     <item>
       <title>[CHANGELOG] NFC: Add add an entry for SE-0518</title>
       <link>https://github.com/swiftlang/swift/commit/7705d464728349e0caf9bf35a769f51da400d21e</link>
@@ -11,28 +23,16 @@
       <pubDate>Mon, 23 Mar 2026 17:03:34 +0000</pubDate>
     </item>
     <item>
+      <title>Add SE-0493 to changelog Added entry for SE-0493 regarding async defer sta...</title>
+      <link>https://github.com/swiftlang/swift/commit/8b293960fea99cfd112ad96acf5e8aff7d95e1bf</link>
+      <description>Add SE-0493 to changelog&#xA;&#xA;Added entry for SE-0493 regarding async defer statements.</description>
+      <pubDate>Sat, 21 Mar 2026 14:12:53 +0000</pubDate>
+    </item>
+    <item>
       <title>Revert &#34;CHANGELOG: Explain that objc bridging is using Task.immediate (#868...</title>
       <link>https://github.com/swiftlang/swift/commit/727807ca0de5126987c4a75dc0d6033e49f9d7fc</link>
       <description>Revert &#34;CHANGELOG: Explain that objc bridging is using Task.immediate (#86885)&#34;&#xA;&#xA;This reverts commit 65c2527f1d32ff8b49209ff2cf819d958eb4e8d7.</description>
       <pubDate>Thu, 19 Mar 2026 01:08:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Update CHANGELOG.md - typo for 0371 vs 0471 The changelog appears to link ...</title>
-      <link>https://github.com/swiftlang/swift/commit/8c4ae7483ed44960c9beef33a03311a1f46cfcb3</link>
-      <description>Update CHANGELOG.md - typo for 0371 vs 0471&#xA;&#xA;The changelog appears to link to the wrong SE.</description>
-      <pubDate>Thu, 12 Mar 2026 15:16:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Changelog] Add changelog entry for forward declaration rule change</title>
-      <link>https://github.com/swiftlang/swift/commit/801e6ac6dcc210a6d9e9cf5e5e6f14ff1412c89e</link>
-      <description>[Changelog] Add changelog entry for forward declaration rule change</description>
-      <pubDate>Tue, 03 Mar 2026 22:01:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>AST: Allow anyAppleOS availability without an experimental feature. Resolv...</title>
-      <link>https://github.com/swiftlang/swift/commit/9724348f8648f5dded2fda2db202a3e83e154043</link>
-      <description>AST: Allow anyAppleOS availability without an experimental feature.&#xA;&#xA;Resolves rdar://170988964.</description>
-      <pubDate>Mon, 02 Mar 2026 22:05:39 +0000</pubDate>
     </item>
   </channel>
 </rss>
