@@ -3,7 +3,13 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Tue, 07 Apr 2026 01:05:41 +0000</pubDate>
+    <pubDate>Wed, 08 Apr 2026 01:06:52 +0000</pubDate>
+    <item>
+      <title>Update CHANGELOG for module selector enablement</title>
+      <link>https://github.com/swiftlang/swift/commit/263641186433c75df5265953071014007f4e45ab</link>
+      <description>Update CHANGELOG for module selector enablement</description>
+      <pubDate>Mon, 06 Apr 2026 19:13:03 +0000</pubDate>
+    </item>
     <item>
       <title>Merge branch &#39;main&#39; into async-defer-changelog</title>
       <link>https://github.com/swiftlang/swift/commit/2a1f78c916777bf95e822515855953e948ffb196</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/8b293960fea99cfd112ad96acf5e8aff7d95e1bf</link>
       <description>Add SE-0493 to changelog&#xA;&#xA;Added entry for SE-0493 regarding async defer statements.</description>
       <pubDate>Sat, 21 Mar 2026 14:12:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Revert &#34;CHANGELOG: Explain that objc bridging is using Task.immediate (#868...</title>
-      <link>https://github.com/swiftlang/swift/commit/727807ca0de5126987c4a75dc0d6033e49f9d7fc</link>
-      <description>Revert &#34;CHANGELOG: Explain that objc bridging is using Task.immediate (#86885)&#34;&#xA;&#xA;This reverts commit 65c2527f1d32ff8b49209ff2cf819d958eb4e8d7.</description>
-      <pubDate>Thu, 19 Mar 2026 01:08:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
