@@ -3,7 +3,25 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Fri, 24 Apr 2026 01:15:04 +0000</pubDate>
+    <pubDate>Sat, 25 Apr 2026 01:08:10 +0000</pubDate>
+    <item>
+      <title>Merge pull request #85770 from ZevEisenberg/main Add SE-0489 (Codable erro...</title>
+      <link>https://github.com/swiftlang/swift/commit/e308ca9f9d23960446bc5322f13f213eaed0a4b5</link>
+      <description>Merge pull request #85770 from ZevEisenberg/main&#xA;&#xA;Add SE-0489 (Codable error debug descriptions) to changelog</description>
+      <pubDate>Fri, 24 Apr 2026 04:55:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Add SE-0489 (Codable error debug descriptions) to changelog.</title>
+      <link>https://github.com/swiftlang/swift/commit/ecb3a8a430f8cb11d1338d600087ea89f2af635e</link>
+      <description>Add SE-0489 (Codable error debug descriptions) to changelog.</description>
+      <pubDate>Thu, 23 Apr 2026 20:58:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>SuppAssocTypes: enable SE-503 by default</title>
+      <link>https://github.com/swiftlang/swift/commit/610a9f98edd74419c11d874464b754872dae78f2</link>
+      <description>SuppAssocTypes: enable SE-503 by default</description>
+      <pubDate>Thu, 23 Apr 2026 05:11:41 +0000</pubDate>
+    </item>
     <item>
       <title>[Concurrency] Warn about un-used throwing unstructured tasks Pending swift...</title>
       <link>https://github.com/swiftlang/swift/commit/bfe8dbca59a4042b69e2942f30807ffd01ab43f1</link>
@@ -15,24 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/263641186433c75df5265953071014007f4e45ab</link>
       <description>Update CHANGELOG for module selector enablement</description>
       <pubDate>Mon, 06 Apr 2026 19:13:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Merge branch &#39;main&#39; into async-defer-changelog</title>
-      <link>https://github.com/swiftlang/swift/commit/2a1f78c916777bf95e822515855953e948ffb196</link>
-      <description>Merge branch &#39;main&#39; into async-defer-changelog</description>
-      <pubDate>Sat, 28 Mar 2026 18:03:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Update link format</title>
-      <link>https://github.com/swiftlang/swift/commit/8dd50f4649242cdd0794de05886fa2394b4533e8</link>
-      <description>Update link format</description>
-      <pubDate>Sat, 28 Mar 2026 18:02:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>[CHANGELOG] NFC: Add add an entry for SE-0518</title>
-      <link>https://github.com/swiftlang/swift/commit/7705d464728349e0caf9bf35a769f51da400d21e</link>
-      <description>[CHANGELOG] NFC: Add add an entry for SE-0518</description>
-      <pubDate>Mon, 23 Mar 2026 17:03:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
