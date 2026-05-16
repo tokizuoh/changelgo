@@ -3,7 +3,7 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Fri, 15 May 2026 01:46:08 +0000</pubDate>
+    <pubDate>Sat, 16 May 2026 01:26:56 +0000</pubDate>
     <item>
       <title>[SourceWarningControl] Promote &#39;@diagnose&#39; attribute to a default language ...</title>
       <link>https://github.com/swiftlang/swift/commit/740800dd2114229f9809bea594544b1c19501ed0</link>
