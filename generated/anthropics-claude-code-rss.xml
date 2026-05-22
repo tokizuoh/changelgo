@@ -3,36 +3,36 @@
     <title>anthropics/claude-code CHANGELOG.md</title>
     <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the anthropics/claude-code repository.</description>
-    <pubDate>Thu, 21 May 2026 01:51:33 +0000</pubDate>
+    <pubDate>Fri, 22 May 2026 01:52:32 +0000</pubDate>
     <item>
       <title>chore: Update CHANGELOG.md and feed.xml</title>
-      <link>https://github.com/anthropics/claude-code/commit/cc898dc3692fb583f36ab327942aad20b7d3dbd0</link>
+      <link>https://github.com/anthropics/claude-code/commit/2194e8e0904087b9f2afce41a2ec083cc71c0653</link>
       <description>chore: Update CHANGELOG.md and feed.xml</description>
-      <pubDate>Tue, 19 May 2026 21:31:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md and feed.xml</title>
-      <link>https://github.com/anthropics/claude-code/commit/b7925a81da917975a3850d52019105afe76ede6b</link>
-      <description>chore: Update CHANGELOG.md and feed.xml</description>
-      <pubDate>Tue, 19 May 2026 20:38:16 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 01:16:46 +0000</pubDate>
     </item>
     <item>
       <title>chore: Update CHANGELOG.md and feed.xml</title>
-      <link>https://github.com/anthropics/claude-code/commit/69d707009ec5a9362ea3552b0580d0f658428f0a</link>
+      <link>https://github.com/anthropics/claude-code/commit/65d44eb134e6f710e2d9fbcfd4bb977698e476dc</link>
       <description>chore: Update CHANGELOG.md and feed.xml</description>
-      <pubDate>Tue, 19 May 2026 00:48:45 +0000</pubDate>
+      <pubDate>Thu, 21 May 2026 23:54:12 +0000</pubDate>
     </item>
     <item>
-      <title>chore: Update CHANGELOG.md</title>
-      <link>https://github.com/anthropics/claude-code/commit/8bdbb7296d3fa2217283d3ef94452dd64097393b</link>
-      <description>chore: Update CHANGELOG.md</description>
-      <pubDate>Fri, 15 May 2026 22:28:17 +0000</pubDate>
+      <title>Remove changelog entry included in error https://claude.ai/code/session_01...</title>
+      <link>https://github.com/anthropics/claude-code/commit/c6b849f27118d97ed57d6067eeb269750b2e647e</link>
+      <description>Remove changelog entry included in error&#xA;&#xA;https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</description>
+      <pubDate>Thu, 21 May 2026 23:23:10 +0000</pubDate>
     </item>
     <item>
-      <title>chore: Update CHANGELOG.md</title>
-      <link>https://github.com/anthropics/claude-code/commit/d61bfb5b562eea5091b11ad1858a9ae429b6bd23</link>
-      <description>chore: Update CHANGELOG.md</description>
-      <pubDate>Thu, 14 May 2026 22:55:04 +0000</pubDate>
+      <title>chore: Update CHANGELOG.md and feed.xml</title>
+      <link>https://github.com/anthropics/claude-code/commit/15b5d57170e0b10a50ecc2c2866efadac2a46d22</link>
+      <description>chore: Update CHANGELOG.md and feed.xml</description>
+      <pubDate>Thu, 21 May 2026 20:39:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>chore: Update CHANGELOG.md and feed.xml</title>
+      <link>https://github.com/anthropics/claude-code/commit/1573399b48ff00e9dedf2ce898021dd2f48b6b97</link>
+      <description>chore: Update CHANGELOG.md and feed.xml</description>
+      <pubDate>Thu, 21 May 2026 01:51:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
