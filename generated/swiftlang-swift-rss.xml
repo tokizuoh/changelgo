@@ -3,7 +3,13 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Sat, 23 May 2026 01:44:17 +0000</pubDate>
+    <pubDate>Sun, 24 May 2026 01:50:01 +0000</pubDate>
+    <item>
+      <title>[changelog] Move note about new @unsafe annotations from Swift Next to 6.3 ...</title>
+      <link>https://github.com/swiftlang/swift/commit/3569fab26967a417472ee24948c279908aa82a24</link>
+      <description>[changelog] Move note about new @unsafe annotations from Swift Next to 6.3&#xA;&#xA;This change made it into Swift 6.3. See e.g. https://github.com/swiftlang/swift/blob/d3179a971411cbe36f642f3777bca3114874b5b5/stdlib/public/core/Span/Span.swift, which is the current HEAD of the release/6.3 branch. Move the corresponding changelog entry from Swift Next to Swift 6.3.</description>
+      <pubDate>Sat, 23 May 2026 01:18:37 +0000</pubDate>
+    </item>
     <item>
       <title>[SourceWarningControl] Promote &#39;@diagnose&#39; attribute to a default language ...</title>
       <link>https://github.com/swiftlang/swift/commit/740800dd2114229f9809bea594544b1c19501ed0</link>
@@ -27,12 +33,6 @@
       <link>https://github.com/swiftlang/swift/commit/ecb3a8a430f8cb11d1338d600087ea89f2af635e</link>
       <description>Add SE-0489 (Codable error debug descriptions) to changelog.</description>
       <pubDate>Thu, 23 Apr 2026 20:58:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>SuppAssocTypes: enable SE-503 by default</title>
-      <link>https://github.com/swiftlang/swift/commit/610a9f98edd74419c11d874464b754872dae78f2</link>
-      <description>SuppAssocTypes: enable SE-503 by default</description>
-      <pubDate>Thu, 23 Apr 2026 05:11:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
