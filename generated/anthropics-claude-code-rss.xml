@@ -3,7 +3,19 @@
     <title>anthropics/claude-code CHANGELOG.md</title>
     <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the anthropics/claude-code repository.</description>
-    <pubDate>Fri, 25 Sep 2026 01:59:23 +0000</pubDate>
+    <pubDate>Sat, 26 Sep 2026 02:04:47 +0000</pubDate>
+    <item>
+      <title>chore: Update CHANGELOG.md and feed.xml</title>
+      <link>https://github.com/anthropics/claude-code/commit/7779afb12e3635f46f56ec823979d68350ae000b</link>
+      <description>chore: Update CHANGELOG.md and feed.xml</description>
+      <pubDate>Fri, 25 Sep 2026 21:49:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>chore: Update CHANGELOG.md and feed.xml</title>
+      <link>https://github.com/anthropics/claude-code/commit/163ae3a264caab2b8317433e15c0895921240474</link>
+      <description>chore: Update CHANGELOG.md and feed.xml</description>
+      <pubDate>Fri, 25 Sep 2026 02:20:46 +0000</pubDate>
+    </item>
     <item>
       <title>chore: Update CHANGELOG.md and feed.xml</title>
       <link>https://github.com/anthropics/claude-code/commit/ddcb43a29b2d4da61fd22a55f6030c6d376b0545</link>
@@ -21,18 +33,6 @@
       <link>https://github.com/anthropics/claude-code/commit/56f36532530f88b572854538d685fcf781141e8c</link>
       <description>chore: Update CHANGELOG.md and feed.xml</description>
       <pubDate>Tue, 22 Sep 2026 16:37:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md and feed.xml</title>
-      <link>https://github.com/anthropics/claude-code/commit/8187baaaafb3a9ada02d3d6fb4e8d68587aef6b0</link>
-      <description>chore: Update CHANGELOG.md and feed.xml</description>
-      <pubDate>Mon, 21 Sep 2026 12:12:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md and feed.xml</title>
-      <link>https://github.com/anthropics/claude-code/commit/bf7d404e26a5fb6167d21b46c93a2bf6c22ab274</link>
-      <description>chore: Update CHANGELOG.md and feed.xml</description>
-      <pubDate>Sat, 19 Sep 2026 03:10:24 +0000</pubDate>
     </item>
   </channel>
 </rss>
