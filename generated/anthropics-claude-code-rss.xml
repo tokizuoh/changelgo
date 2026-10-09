@@ -3,7 +3,19 @@
     <title>anthropics/claude-code CHANGELOG.md</title>
     <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the anthropics/claude-code repository.</description>
-    <pubDate>Thu, 08 Oct 2026 03:03:59 +0000</pubDate>
+    <pubDate>Fri, 09 Oct 2026 03:10:20 +0000</pubDate>
+    <item>
+      <title>chore: Update CHANGELOG.md and feed.xml Fixes #74612</title>
+      <link>https://github.com/anthropics/claude-code/commit/602df92bf481ed904533e95c09f740f40aab5aed</link>
+      <description>chore: Update CHANGELOG.md and feed.xml&#xA;&#xA;Fixes #74612</description>
+      <pubDate>Thu, 08 Oct 2026 19:48:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>chore: Update CHANGELOG.md and feed.xml</title>
+      <link>https://github.com/anthropics/claude-code/commit/71cdddec623889d38af14b7a489670a03186f659</link>
+      <description>chore: Update CHANGELOG.md and feed.xml</description>
+      <pubDate>Thu, 08 Oct 2026 05:03:36 +0000</pubDate>
+    </item>
     <item>
       <title>chore: Update CHANGELOG.md and feed.xml</title>
       <link>https://github.com/anthropics/claude-code/commit/79babc372d64101f981bd2b52c3dbe588596dc56</link>
@@ -21,18 +33,6 @@
       <link>https://github.com/anthropics/claude-code/commit/8e60c4cac989c0e0cc6d2c49407a5c67f5a4a8e6</link>
       <description>chore: Update CHANGELOG.md and feed.xml</description>
       <pubDate>Tue, 06 Oct 2026 03:54:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md and feed.xml Fixes #98135</title>
-      <link>https://github.com/anthropics/claude-code/commit/e8ae451830fb8d1d8edf853c7830ff6c650d3ee3</link>
-      <description>chore: Update CHANGELOG.md and feed.xml&#xA;&#xA;Fixes #98135</description>
-      <pubDate>Mon, 05 Oct 2026 23:32:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>chore: Update CHANGELOG.md and feed.xml</title>
-      <link>https://github.com/anthropics/claude-code/commit/2bfb629dfaff0c8318047a4beb93cf1dc5b58b18</link>
-      <description>chore: Update CHANGELOG.md and feed.xml</description>
-      <pubDate>Sat, 03 Oct 2026 23:06:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
