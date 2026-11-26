@@ -3,7 +3,7 @@
     <title>swiftlang/swift CHANGELOG.md</title>
     <link>https://github.com/swiftlang/swift/blob/main/CHANGELOG.md</link>
     <description>The commit history of the CHANGELOG.md in the swiftlang/swift repository.</description>
-    <pubDate>Wed, 25 Nov 2026 05:43:22 +0000</pubDate>
+    <pubDate>Thu, 26 Nov 2026 05:32:24 +0000</pubDate>
     <item>
       <title>[changelog] Explain change in escalation handler semantics</title>
       <link>https://github.com/swiftlang/swift/commit/2b877e49e5405898793c5da90b6af88403bd4b3a</link>
